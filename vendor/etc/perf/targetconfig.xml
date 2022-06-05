@@ -48,7 +48,7 @@
          <ClustersInfo Id="0" NumCores="4" Type="big" />
          <ClustersInfo Id="1" NumCores="4" Type="little" /-->
          
-         <!-- Xiaomi Redmi 4A rolex / 5A riva Kernel 4.9 Schedutil.
+         <!-- msm8937 4 CPU Cores Kernel 4.9 Schedutil.
              TotalNumCores="4" because it only has 4 CPU cores.
              NumClusters="1" because it's only using 1 cluster.
              SocIds="" depends of /sys/devices/soc*/soc_id.
