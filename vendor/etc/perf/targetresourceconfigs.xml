@@ -19,7 +19,7 @@ as anyway perflock calls of these resources would fail. -->
 <ResourceConfigs>
     <PerfResources>
 
-        <!-- Xiaomi Redmi 4A rolex / 5A riva Kernel 4.9 Schedutil -->
+        <!-- msm8937 4 CPU Cores & msm8917 Kernel 4.9 Schedutil -->
 
         <Config MajorValue="0x1" MinorValue="0x0" Target="msm8937" Node="/dev/cpu_dma_latency" Supported="yes" />
         <Config MajorValue="0x1" MinorValue="0x0" Target="msm8917" Node="/dev/cpu_dma_latency" Supported="yes" />
