@@ -5,3 +5,8 @@
 # msm8917 Perf Configs
 
 # Kernel 4.9 Schedutil Governor
+
+# Devices
+- Xiaomi Redmi 4A rolex
+- Xiaomi Redmi 5A riva
+- Many more
