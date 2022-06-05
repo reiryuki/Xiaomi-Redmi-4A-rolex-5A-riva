@@ -6,7 +6,7 @@
 
 # Kernel 4.9 Schedutil Governor
 
-# Devices
+# Known Devices
 - Xiaomi Redmi 4A rolex
 - Xiaomi Redmi 5A riva
 - Many more
