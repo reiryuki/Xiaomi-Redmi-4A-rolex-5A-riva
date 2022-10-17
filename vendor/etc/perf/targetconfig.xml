@@ -48,7 +48,7 @@
          <ClustersInfo Id="0" NumCores="4" Type="big" />
          <ClustersInfo Id="1" NumCores="4" Type="little" /-->
          
-         <!-- msm8937 4 CPU Cores Kernel 4.9 Schedutil.
+         <!-- msm8937 4 cores kernel 4.9 Schedutil.
              TotalNumCores="4" because it only has 4 CPU cores.
              NumClusters="1" because it's only using 1 cluster.
              SocIds="" depends of /sys/devices/soc*/soc_id.
@@ -84,5 +84,51 @@
          <ClustersInfo Id="0" NumCores="4" Type="big" />
 
     </Config2>
+    
+    <Config3>
+         <TargetInfo
+             Target="sdm439"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="353,363"
+             SynCore="1"
+             CoreCtlCpu="0"
+             MinCoreOnline="0"
+             CpufreqGov="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="big" />
+         <ClustersInfo Id="1" NumCores="4" Type="little" />
+
+    </Config3>
+
+    <Config4>
+         <TargetInfo
+             Target="sdm429"
+             NumClusters="1"
+             TotalNumCores="4"
+             SocIds="354,364"
+             SynCore="1"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             GovInstanceType="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="big" />
+
+    </Config4>
+
+    <Config5>
+         <TargetInfo
+             Target="qm215"
+             NumClusters="1"
+             TotalNumCores="4"
+             SocIds="386,436"
+             SynCore="1"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             GovInstanceType="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="big" />
+
+    </Config5>
 
 </TargetConfig>

@@ -13,8 +13,8 @@ respective property Name is called. -->
 <PerfConfigsStore>
     <PerfConfigs>
         
-        <!-- /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service -->
-        <Prop Name="vendor.debug.enable.lm" Value="false" /> <!-- false because doesn't use /vendor/etc/lm/ -->
+        <!-- /vendor/bin/hw/vendor.qti.hardware.perf@*.*-service -->
+        <Prop Name="vendor.debug.enable.lm" Value="true" /> <!-- false if you don't use /vendor/etc/lm/ -->
         <Prop Name="vendor.debug.enable.memperfd" Value="true" />
         
         <!-- /vendor/lib(64)/libqti-perfd.so -->
